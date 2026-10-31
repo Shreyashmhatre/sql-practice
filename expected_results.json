@@ -1,0 +1,10 @@
+{
+  "01_order_totals": [{"order_id":1,"total_paise":200000},{"order_id":2,"total_paise":160000},{"order_id":3,"total_paise":65000},{"order_id":5,"total_paise":250000}],
+  "02_customer_spend": [{"name":"Rohan","spend_paise":410000},{"name":"Asha","spend_paise":265000}],
+  "03_customers_without_sales": [{"name":"Meera"},{"name":"Kabir"}],
+  "04_product_sales": [{"name":"Sensor kit","units":2,"revenue_paise":240000},{"name":"Network adapter","units":3,"revenue_paise":240000},{"name":"Microcontroller","units":3,"revenue_paise":195000}],
+  "05_monthly_revenue": [{"month":"2026-01","revenue_paise":360000},{"month":"2026-02","revenue_paise":315000}],
+  "06_customer_rank": [{"name":"Rohan","spend_paise":410000,"spend_rank":1},{"name":"Asha","spend_paise":265000,"spend_rank":2}],
+  "07_running_revenue": [{"order_id":1,"total_paise":200000,"cumulative_paise":200000},{"order_id":2,"total_paise":160000,"cumulative_paise":360000},{"order_id":3,"total_paise":65000,"cumulative_paise":425000},{"order_id":5,"total_paise":250000,"cumulative_paise":675000}],
+  "08_quality_checks": [{"orphan_items":0,"invalid_amounts":0}]
+}
